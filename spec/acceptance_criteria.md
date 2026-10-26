@@ -36,7 +36,7 @@ Estos criterios concretan las condiciones para aceptar la primera versión descr
 
 - Un editor autenticado puede crear, editar y retirar artículos desde Django Admin.
 - Un editor autenticado puede actualizar la presentación del autor desde Django Admin.
-- Los campos de un artículo permiten gestionar título, slug, contenido, autoría, fecha de publicación y estado.
+- Los campos de un artículo permiten gestionar título, slug, contenido, autoría, fecha de publicación y una casilla «Publicado» (verdadero/falso).
 - Tras publicar un artículo, este aparece en la portada; tras dejarlo como borrador, deja de aparecer y su ruta pública no permite leerlo.
 - Una persona visitante no autenticada no puede acceder a las funciones de edición del panel administrativo.
 - El sitio no ofrece registro público de lectores.

@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block title %}{{ about_page.title }} | {{ blog_title }}{% endblock %}
+{% block content %}
+    <article class="about-page">
+        <p class="eyebrow">Quién escribe</p>
+        <h1>{{ about_page.title }}</h1>
+        <div class="prose">
+            {% load article_content %}
+            {{ about_page.content|render_article_content }}
+        </div>
+    </article>
+{% endblock %}
